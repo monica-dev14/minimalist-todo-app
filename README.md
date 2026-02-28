@@ -1,16 +1,19 @@
-# React + Vite
+# 📝 ZenDo - Minimalist To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and focused To-Do list application built with **React + Vite**. Designed with a clean UI, this app ensures a smooth task management experience by keeping the interface fixed and making the task list scrollable.
 
-Currently, two official plugins are available:
+## 🚀 Unique Features
+- **Smart Scroll Logic:** The main page layout is locked to prevent browser scrolling. Only the task list area scrolls internally.
+- **SPA Navigation:** Smooth switching between 'Add Task', 'Pending', and 'Completed' tabs.
+- **Clean UI:** Minimalist design with a focus on readability and ease of use.
+- **Fast Refresh:** Built using Vite for an ultra-fast development experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Library:** React.js
+- **Build Tool:** Vite
+- **Styling:** Inline CSS with Flexbox and Overflow management.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 How to Install & Run
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/monica-dev14/minimalist-todo-app.git](https://github.com/monica-dev14/minimalist-todo-app.git)
