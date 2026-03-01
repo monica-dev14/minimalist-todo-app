@@ -1,4 +1,3 @@
-/* Container and Overall Layout */
 body {
   background-color: #f4f7f6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,7 +8,6 @@ body {
   margin: 0;
   padding-top: 50px;
 }
-/* Browser-oda default scrollbar-ai mothama hide panna */
 html, body {
   margin: 0;
   padding: 0;
