@@ -14,5 +14,5 @@ A minimalist, high-performance To-Do application built with **React + Vite**.
 - **Styling:** Dynamic Inline CSS (Flexbox & Overflow logic)
 
 ## Live Demo:
-[View My Project Live 🚀](  https://monica-dev14.github.io/Glass-Obsidian/)
+[View My Project Live 🚀]( https://minimalist-todo-app-jade.vercel.app/)
 
