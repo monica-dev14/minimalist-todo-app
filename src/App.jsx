@@ -30,14 +30,13 @@ export const App = () => {
   const completedTasks = todolist.filter(t => t.complete);
 
   return (
-    /* MAIN CONTAINER: Screen-ku ulla nirkum */
-    <div style={{ 
+        <div style={{ 
       width: '100vw', 
       height: '100vh', 
       display: 'flex', 
       justifyContent: 'center', 
       alignItems: 'flex-start',
-      overflow: 'hidden' // Double check kaga
+      overflow: 'hidden'
     }}>
       
       <div className="App" style={{ 
@@ -45,7 +44,7 @@ export const App = () => {
         maxWidth: '500px', 
         padding: '20px', 
         fontFamily: 'Arial',
-        height: '90vh', // Konjam gap kaga
+        height: '90vh', 
         display: 'flex',
         flexDirection: 'column'
       }}>
@@ -57,10 +56,10 @@ export const App = () => {
           <button onClick={() => setActiveTab('completed')} style={tabStyle(activeTab === 'completed')}>Completed ({completedTasks.length})</button>
         </div>
 
-        {/* List Content: Inga mattum dhaan scroll varum */}
+        {/* scroll option*/}
         <div className="content-area" style={{ 
           flex: 1, 
-          overflowY: 'auto', // List-ku mattum scroll
+          overflowY: 'auto', 
           padding: '15px', 
           background: '#f9f9f9', 
           borderRadius: '10px',
